@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d5462af7eb13a4493cd1172bbd5828, type: 3}
+  m_Name: Up verical 0
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 4083675881595064381, guid: dcb6df510470e994d93f120448f1cefd,
+    type: 3}
+  enemyPath: {fileID: 1446407343223334043, guid: 44443101fda3b0449bfbc93e635f282b,
+    type: 3}
+  timeBetweenSpawns: 0.6
+  numberOfEnemies: 2
+  moveSpeed: 1
+  spawnRandomFactor: 0.3

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1233193577242376741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1233193577242376739}
+  - component: {fileID: 1233193577242376740}
+  m_Layer: 0
+  m_Name: Enemy Spawner E1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1233193577242376739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233193577242376741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1233193577242376740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233193577242376741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 389e7b9883d202e4cb62919c0883ee98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConfigs:
+  - {fileID: 11400000, guid: 17e1a45a6aa18eb4bbe74a76ec21aefa, type: 2}
+  - {fileID: 11400000, guid: 30cc3862f38bae0419bc4793f4a416ff, type: 2}
+  - {fileID: 11400000, guid: 22cdd4f8320635f448444dffb031cc95, type: 2}
+  - {fileID: 11400000, guid: 758d08a29d9c2d640b6e1cc4ca621f0d, type: 2}
+  - {fileID: 11400000, guid: 0aef67584bc768943acef5a30034c832, type: 2}
+  - {fileID: 11400000, guid: ac67dfa62d24e7b44b0c1685eb439e82, type: 2}
+  - {fileID: 11400000, guid: 30cc3862f38bae0419bc4793f4a416ff, type: 2}
+  - {fileID: 11400000, guid: 0aef67584bc768943acef5a30034c832, type: 2}
+  - {fileID: 11400000, guid: 23baee029f628e84387ba8c62b79c0e4, type: 2}
+  - {fileID: 11400000, guid: cc8769a212426984989ccf1fc6a78a7c, type: 2}
+  - {fileID: 11400000, guid: aafc69830a1fb5c46b20d31b26aa0c7c, type: 2}
+  - {fileID: 11400000, guid: 4151a3693de5e554ab1c81579b3cd826, type: 2}
+  - {fileID: 11400000, guid: 8abbd94c91fc9e54d97098c39d0a879c, type: 2}
+  - {fileID: 11400000, guid: aafc69830a1fb5c46b20d31b26aa0c7c, type: 2}
+  - {fileID: 11400000, guid: 23baee029f628e84387ba8c62b79c0e4, type: 2}
+  - {fileID: 11400000, guid: 0aef67584bc768943acef5a30034c832, type: 2}
+  loop: 0
+  nextSpawner: {fileID: 7030467464340823650, guid: a46c9f89ce6d01f4f9a0d25cbffcc4b4,
+    type: 3}
+  upgrades: {fileID: 978642236649667422, guid: 85eaf2651d296684da6c1e48b9bb8f6d, type: 3}
+  enemyNumber: 0
