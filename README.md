@@ -18,7 +18,7 @@ In every level after a couple of waves the player has the oportunity to upgrade 
 
 ![Exercise 1 image](gif/Upgrades.gif)
 
-The spaceship has damage states based of it`s health percentage.
+The spaceship has damage states based on it`s health percentage.
 
 ![Exercise 1 image](gif/State_2.gif)
 
